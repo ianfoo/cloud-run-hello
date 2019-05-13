@@ -22,6 +22,7 @@ func main() {
 }
 
 func routes() {
+	http.Handle("/", http.FileServer(http.Dir("pages")))
 	http.HandleFunc("/ping", logAccess(ping))
 	http.HandleFunc("/hello", logAccess(hello))
 	http.HandleFunc("/time", logAccess(reportTime))

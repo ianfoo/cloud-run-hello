@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, Helvetica;
+	font-size: 19px;
+	font-weight: medium;
+	color: black;
+	background: #CCCCCC;
+}
+a:link {
+	color: #111111;
+	text-decoration: none;
+}
+a:visited {
+	color: #111111;
+}
+a:hover {
+	color: royalblue;
+}
+.outer {
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+.inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60rem;
+}
+.substantial {
+	font-size: 3rem;
+	vertical-align: middle;
+}
+.lead {
+	margin-bottom: 4rem;
+}
